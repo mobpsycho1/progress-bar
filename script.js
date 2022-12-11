@@ -44,7 +44,7 @@ next.addEventListener('click', () => {
 prevbtn.addEventListener('click',()=>{
     currentActive--
     console.log(currentActive)
-    // currentActive <= 1 ? prevbtn.disabled = true : null
+    currentActive <= 1 ? prevbtn.disabled = true : null
     if(currentActive < 1){
         currentActive = 1   
     }
